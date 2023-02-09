@@ -11,7 +11,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Show confetti when build success.
     <br> 
 </p>
 
@@ -44,7 +44,7 @@ You can use it standalone as a function, or you can interactive it with build to
 
 ### Prerequisites
 
-You need to install raycast.
+You need to install [Raycast](https://www.raycast.com/).
 
 ### Installing
 
