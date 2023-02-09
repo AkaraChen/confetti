@@ -1,0 +1,19 @@
+{
+    "name": "webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "unplugin-confetti": "1.0.0",
+        "webpack": "^5.75.0"
+    },
+    "devDependencies": {
+        "@types/webpack": "^5.28.0"
+    }
+}

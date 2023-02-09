@@ -1,0 +1,14 @@
+{
+    "name": "@akrc/confetti",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "exports": {
+        ".": "./dist/index.js"
+    }
+}
