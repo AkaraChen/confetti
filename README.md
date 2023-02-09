@@ -17,20 +17,20 @@
 
 ## 📝 Table of Contents
 
-- [📝 Table of Contents](#-table-of-contents)
-- [🧐 About ](#-about-)
-- [🏁 Getting Started ](#-getting-started-)
-  - [Prerequisites](#prerequisites)
-  - [Installing](#installing)
-- [🎈 Usage ](#-usage-)
-    - [Vite](#vite)
-    - [Rollup](#rollup)
-    - [Webpack](#webpack)
-    - [Esbuild](#esbuild)
-- [🚀 Deployment ](#-deployment-)
-- [⛏️ Built Using ](#️-built-using-)
-- [✍️ Authors ](#️-authors-)
-- [🎉 Acknowledgements ](#-acknowledgements-)
+-   [📝 Table of Contents](#-table-of-contents)
+-   [🧐 About ](#-about-)
+-   [🏁 Getting Started ](#-getting-started-)
+    -   [Prerequisites](#prerequisites)
+    -   [Installing](#installing)
+-   [🎈 Usage ](#-usage-)
+    -   [Vite](#vite)
+    -   [Rollup](#rollup)
+    -   [Webpack](#webpack)
+    -   [Esbuild](#esbuild)
+-   [🚀 Deployment ](#-deployment-)
+-   [⛏️ Built Using ](#️-built-using-)
+-   [✍️ Authors ](#️-authors-)
+-   [🎉 Acknowledgements ](#-acknowledgements-)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -61,9 +61,9 @@ pnpm add unplugin-confetti
 If you want to use it standalone:
 
 ```ts
-import { confetti } from '@akrc/confetti'
+import { confetti } from '@akrc/confetti';
 
-confetti()
+confetti();
 ```
 
 If you want to use it with build tools, see below:
@@ -75,10 +75,8 @@ If you want to use it with build tools, see below:
 import { vite } from 'unplugin-confetti';
 
 export default {
-  plugins: [
-    vite()
-  ]
-}
+    plugins: [vite()],
+};
 ```
 
 #### Rollup
@@ -88,10 +86,8 @@ export default {
 import { rollup } from 'rollup';
 
 export default {
-  plugins: [
-    rollup()
-  ]
-}
+    plugins: [rollup()],
+};
 ```
 
 #### Webpack
@@ -101,10 +97,8 @@ export default {
 import { webpack } from 'unplugin-confetti';
 
 module.exports = {
-  plugins: [
-    webpack()
-  ]
-}
+    plugins: [webpack()],
+};
 ```
 
 #### Esbuild
@@ -114,10 +108,8 @@ module.exports = {
 import { esbuild } from 'unplugin-confetti';
 
 build({
-  plugins: [
-    esbuild()
-  ]
-})
+    plugins: [esbuild()],
+});
 ```
 
 Or you can take a look at tests in this repo.
@@ -134,12 +126,12 @@ pnpm install
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [NodeJs](https://nodejs.org/en/) - JavaScript runtime
-- [Unplugin](https://github.com/unjs/unplugin) - Plugin system
+-   [NodeJs](https://nodejs.org/en/) - JavaScript runtime
+-   [Unplugin](https://github.com/unjs/unplugin) - Plugin system
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@akarachen](https://github.com/akarachen) - Idea & Initial work
+-   [@akarachen](https://github.com/akarachen) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/akarachen/confetti/contributors) who participated in this project.
 
